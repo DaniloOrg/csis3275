@@ -1,9 +1,8 @@
-package com.example.SpringBoot.CRUD.DAO;
+package com.example.Springboot_Lab.DAO;
 
-import com.example.SpringBoot.CRUD.Entity.Book;
+import com.example.Springboot_Lab.Entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 
 import java.util.Collection;
 
@@ -17,6 +16,7 @@ public class BookDAO {
         return repository.findAll();
     }
 
-    public Book createBook(Book book) { return repository.insert(book); }
-
+    public Book createBook(Book book) {
+        return repository.insert(book);
+    }
 }

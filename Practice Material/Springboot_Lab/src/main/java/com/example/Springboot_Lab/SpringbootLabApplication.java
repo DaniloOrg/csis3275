@@ -1,17 +1,16 @@
-package com.example.SpringBoot.CRUD;
+package com.example.Springboot_Lab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-public class SpringBootCrudApplication {
+public class SpringbootLabApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootCrudApplication.class, args);
-	}
 
+		SpringApplication.run(SpringbootLabApplication.class, args);
+	}
 
 }
